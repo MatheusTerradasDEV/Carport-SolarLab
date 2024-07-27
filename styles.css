@@ -116,13 +116,14 @@ body {
     .carrosel-content{
         display: flex;
         flex-direction: column;
-        width: 90%;
-        top: 16vh;
-        text-align: center;
+        width: 100%;
+        top: 13vh;
+        
     }
 
     .text-p1 {
-        width: 80%;
+        text-align: center;
+        width: 70%;
         font-size: 15px;
         color: rgb(255, 255, 255);
         display: inline-block;
@@ -130,8 +131,9 @@ body {
     }
 
     .text-p2{
+        text-align: center;
         color: white;
-        width: 80%;
+        width: 70%;
         font-size: 11px;
         display: inline-block;
         animation: slideDown 1s ease-out forwards;
