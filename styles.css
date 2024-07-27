@@ -125,12 +125,16 @@ body {
         width: 80%;
         font-size: 15px;
         color: rgb(255, 255, 255);
+        display: inline-block;
+        animation: slideIn 1s ease-out forwards;
     }
 
     .text-p2{
         color: white;
         width: 80%;
         font-size: 11px;
+        display: inline-block;
+        animation: slideDown 1s ease-out forwards;
     }
 
     .text-h6 {
@@ -140,4 +144,27 @@ body {
    
     
     
+}
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
